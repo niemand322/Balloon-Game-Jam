@@ -1,13 +1,17 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float horizontalSpeed = 10;
-    public float verticalSpeed = 3;
     Rigidbody2D body;
 
     float horizontal;
     float vertical;
+    float moveLimiter = 0.7f;
+
+    public float runSpeedVertical = 2f;
+    public float runSpeedHorizontal = 1.4f;
 
     void Start()
     {
@@ -20,8 +24,14 @@ public class Movement : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        body.velocity = new Vector2(horizontal * horizontalSpeed, vertical * verticalSpeed);
+        if (horizontal != 0 && vertical != 0)
+        {
+            horizontal *= moveLimiter;
+            vertical *= moveLimiter;
+        }
+
+        body.velocity = new Vector2(horizontal * runSpeedHorizontal, vertical * runSpeedVertical);
     }
 }
