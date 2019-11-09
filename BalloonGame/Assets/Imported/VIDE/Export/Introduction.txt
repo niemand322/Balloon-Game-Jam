@@ -1,0 +1,156 @@
+Edit the dialogue on the go.
+You can edit and add comments, edit the tags, and set node type.
+Do not attempt to add more nodes: the number of nodes must match when importing the text file.
+Do not modify the IDs.
+Do not add or remove empty lines.
+Do not restructure the data.
+
+Dialogue name: TestDialogue
+---------------------------------
+#NODEID#
+0
+#TAG#
+Lord Zeppelin
+#ISPLAYER#
+False
+---
+#COMMENT#
+Good evening, Mr. ShAIRlock Holmes!
+#COMMENT#
+I'm delighted you could join us today.
+#COMMENT#
+Come in, come in. The other guests can't wait to meet the detective whose work all London is talking about.
+#COMMENT#
+It's quite an honor to have you here.
+---------------------------------
+#NODEID#
+1
+#TAG#
+Detective
+#ISPLAYER#
+False
+---
+#COMMENT#
+It certainly is a good evening, Lord Zeppelin.
+#COMMENT#
+The honour is all mine.
+#COMMENT#
+It is not often that I am invited to such a noble house for a solemn supper.
+#COMMENT#
+And it is a pleasure to tell the story of my last case: The balloon dog of Baskerville.
+#COMMENT#
+[Filler]
+---------------------------------
+#NODEID#
+4
+#TAG#
+Lord Zeppelin
+#ISPLAYER#
+False
+---
+#COMMENT#
+OMICIDIO!!!
+#COMMENT#
+[Or something like that.]
+#COMMENT#
+[That'd be a good spot for a cut scene, but I don't have one.]
+#COMMENT#
+[But at least I have this.]
+---------------------------------
+#NODEID#
+9
+#TAG#
+Detective
+#ISPLAYER#
+False
+---
+#COMMENT#
+What should I do next?
+---------------------------------
+#NODEID#
+3
+#TAG#
+Detective
+#ISPLAYER#
+False
+---
+#COMMENT#
+[Conversation with the Lord's business partner.]
+#COMMENT#
+[Maybe you can already find a clue here?]
+---------------------------------
+#NODEID#
+5
+#TAG#
+Lady
+#ISPLAYER#
+False
+---
+#COMMENT#
+You must be the famous detective I've heard so much about.
+#COMMENT#
+My friends will be jealous when they learn that I had THE master detective ShAIRlock Holmes as a guest.
+#COMMENT#
+Please, would you accompany me on a walk through our rose garden. You have to tell me all your stories!
+---------------------------------
+#NODEID#
+10
+#TAG#
+Lady
+#ISPLAYER#
+False
+---
+#COMMENT#
+[Conversation with lady hot-air balloon]
+#COMMENT#
+[Maybe you can already find a clue here?]
+---------------------------------
+#NODEID#
+11
+#TAG#
+Detective
+#ISPLAYER#
+False
+---
+#COMMENT#
+[Conversation with the servant.]
+#COMMENT#
+[Maybe you can already find a clue here?]
+---------------------------------
+#NODEID#
+12
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Talk to the guests.
+#COMMENT#
+Sit down at the dining table.
+#COMMENT#
+Stroll through the garden.
+#COMMENT#
+Say farewell and go home.
+---------------------------------
+#NODEID#
+17
+#TAG#
+Detective
+#ISPLAYER#
+False
+---
+#COMMENT#
+Ladies and gentlemen, forgive me, but it is already late and time for me to leave.
+---------------------------------
+#NODEID#
+7
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+END ACT1
+---------------------------------
+#END#

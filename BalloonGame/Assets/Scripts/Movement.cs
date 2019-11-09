@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VIDE_Data;
 
 public class Movement : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Movement : MonoBehaviour
     public float runSpeedVertical = 2f;
     public float runSpeedHorizontal = 1.4f;
 
+
+
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -22,7 +25,9 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
+        if (VD.isActive) return;
+
+            horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
         if(horizontal == -1)
         {
