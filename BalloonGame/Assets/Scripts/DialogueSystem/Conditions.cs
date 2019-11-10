@@ -37,6 +37,21 @@ public class Conditions : MonoBehaviour
         
     }
 
+    public void JumpCondition(string message) // An action node passes the information in the form: "key,note_index"
+    {
+        //If the value of this key is true, jump to the note with the note_index
+        var keyIndex = IndexKey(message);
+
+        if (dict.ContainsKey(keyIndex.Item2))
+        {
+            if (dict[keyIndex.Item2])
+            {
+                uIManager.GoToIndex(keyIndex.Item1);
+            }
+        }
+    }
+
+
     public void ConditionAND(string message) // An action node passes the information in the form: "newkey,key1,true,key2,false"
     {
         // This function takes keys and the expected bool values and calculates true only if all keys are included in the dictionary and have the expected bool value. Otherwise it calculates false.

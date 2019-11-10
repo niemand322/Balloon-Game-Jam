@@ -40,11 +40,7 @@ public class UIManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            if (!VD.isActive)
-            {
-                Begin(); // At the moment the dialog is triggered by pressing the Enter key, this must be replaced in the finished game by something else.
-            }
-            else
+            if (VD.isActive)
             {
                 // If the player must decide, then Enter will simply take the first selection 
                 // One could also check if it's the player's turn, but then one could no longer confirm with Enter.
@@ -52,13 +48,13 @@ public class UIManager : MonoBehaviour
             }
         }
     }
-    void Begin()
+    public void Begin(VIDE_Assign videAssign)
     {
         VD.OnNodeChange += UpdateUI;
         VD.OnEnd += End;
         // This loads the VIDE_Assign into the VD. 
         //If you want to play other dialogs, you would have to select a different VIDE_Assign here.
-        VD.BeginDialogue(GetComponent<VIDE_Assign>());
+        VD.BeginDialogue(videAssign);
     }
 
     void UpdateUI(VD.NodeData data)
@@ -97,6 +93,9 @@ public class UIManager : MonoBehaviour
                     text_Choices[i].transform.parent.gameObject.SetActive(displayChoice[i]); // The buttons are only called if displayChoice allows it.
                     text_Choices[i].text = data.comments[i];
 
+                    // One should probably change this so that not the last active button is selected, but the first active button.
+                    text_Choices[i].transform.parent.GetComponent<Button>().Select();
+
                     // One could play an audio clip here, but then one would still have to work with the fact that the dialog system changes immediately to the next text after the selection.
                     // Probably it would be easier to repeat the text in the next NPC node and then play the sound there.
                 }
@@ -106,8 +105,6 @@ public class UIManager : MonoBehaviour
                 }
 
             }
-            // One should probably change this so that not the first button is selected, but the first button that is active.
-            text_Choices[0].transform.parent.GetComponent<Button>().Select(); 
         }
         else
         {
@@ -183,7 +180,7 @@ public class UIManager : MonoBehaviour
             VD.Next();
     }
 
-    public void FeedBools(string bools)
+    public void FeedBools(string bools) //true,true,false,...
     {
         // This function can be used by an action node to enable or disable certain specified response options.
         string[] boolList = bools.Split(',');
@@ -200,6 +197,11 @@ public class UIManager : MonoBehaviour
     {
         // This function works like the above one, but the data does not have to be converted into a string first.
         displayChoice[result.Item1] = result.Item2;
+    }
+
+    public void GoToIndex(int id)
+    {
+        VD.SetNode(id);
     }
 
 

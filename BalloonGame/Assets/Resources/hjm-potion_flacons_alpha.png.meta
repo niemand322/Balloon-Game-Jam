@@ -1,0 +1,2335 @@
+fileFormatVersion: 2
+guid: 5443cca0adb5eb74f9063c3156119329
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3593511968622805530
+    second: hjm-potion_flacons_alpha_0
+  - first:
+      213: 8457722780126347686
+    second: hjm-potion_flacons_alpha_1
+  - first:
+      213: 1257711816158180349
+    second: hjm-potion_flacons_alpha_2
+  - first:
+      213: -4589199738084044397
+    second: hjm-potion_flacons_alpha_3
+  - first:
+      213: -1129619594036858193
+    second: hjm-potion_flacons_alpha_4
+  - first:
+      213: 4660065175051737267
+    second: hjm-potion_flacons_alpha_5
+  - first:
+      213: 9025046887247693916
+    second: hjm-potion_flacons_alpha_6
+  - first:
+      213: 9197609422714743704
+    second: hjm-potion_flacons_alpha_7
+  - first:
+      213: 3039965470206447240
+    second: hjm-potion_flacons_alpha_8
+  - first:
+      213: 2374562220996823761
+    second: hjm-potion_flacons_alpha_9
+  - first:
+      213: -3718985557861837456
+    second: hjm-potion_flacons_alpha_10
+  - first:
+      213: 7881495129911783746
+    second: hjm-potion_flacons_alpha_11
+  - first:
+      213: 4812193414068150134
+    second: hjm-potion_flacons_alpha_12
+  - first:
+      213: -8843532054496429116
+    second: hjm-potion_flacons_alpha_13
+  - first:
+      213: -851656024518594977
+    second: hjm-potion_flacons_alpha_14
+  - first:
+      213: 5590583843848910852
+    second: hjm-potion_flacons_alpha_15
+  - first:
+      213: 6162630318161973740
+    second: hjm-potion_flacons_alpha_16
+  - first:
+      213: -6043609089662207073
+    second: hjm-potion_flacons_alpha_17
+  - first:
+      213: 8502090265343201276
+    second: hjm-potion_flacons_alpha_18
+  - first:
+      213: -4045921255386712436
+    second: hjm-potion_flacons_alpha_19
+  - first:
+      213: -1737207073093257747
+    second: hjm-potion_flacons_alpha_20
+  - first:
+      213: 2287477926961524631
+    second: hjm-potion_flacons_alpha_21
+  - first:
+      213: 6136316974139046671
+    second: hjm-potion_flacons_alpha_22
+  - first:
+      213: -3616986301947544195
+    second: hjm-potion_flacons_alpha_23
+  - first:
+      213: -5177662173431816783
+    second: hjm-potion_flacons_alpha_24
+  - first:
+      213: -8433461701549069799
+    second: hjm-potion_flacons_alpha_25
+  - first:
+      213: -1595863557695721667
+    second: hjm-potion_flacons_alpha_26
+  - first:
+      213: -3111690848974403693
+    second: hjm-potion_flacons_alpha_27
+  - first:
+      213: -631291860343338075
+    second: hjm-potion_flacons_alpha_28
+  - first:
+      213: -8559592161720982866
+    second: hjm-potion_flacons_alpha_29
+  - first:
+      213: -7356908457230076989
+    second: hjm-potion_flacons_alpha_30
+  - first:
+      213: -7994690854017297570
+    second: hjm-potion_flacons_alpha_31
+  - first:
+      213: -8400836017719702920
+    second: hjm-potion_flacons_alpha_32
+  - first:
+      213: -8028413402239009975
+    second: hjm-potion_flacons_alpha_33
+  - first:
+      213: -3933690151488299223
+    second: hjm-potion_flacons_alpha_34
+  - first:
+      213: 8287745149225213124
+    second: hjm-potion_flacons_alpha_35
+  - first:
+      213: -2298805420540584735
+    second: hjm-potion_flacons_alpha_36
+  - first:
+      213: 1661519168187206207
+    second: hjm-potion_flacons_alpha_37
+  - first:
+      213: 2228602649799304397
+    second: hjm-potion_flacons_alpha_38
+  - first:
+      213: 8513261315686124089
+    second: hjm-potion_flacons_alpha_39
+  - first:
+      213: -3302118184331068844
+    second: hjm-potion_flacons_alpha_40
+  - first:
+      213: 8176909384971831081
+    second: hjm-potion_flacons_alpha_41
+  - first:
+      213: -2278738503334194727
+    second: hjm-potion_flacons_alpha_42
+  - first:
+      213: -1367632933817251508
+    second: hjm-potion_flacons_alpha_43
+  - first:
+      213: 1515654851062564027
+    second: hjm-potion_flacons_alpha_44
+  - first:
+      213: -6473783780577413459
+    second: hjm-potion_flacons_alpha_45
+  - first:
+      213: 7111701992079960405
+    second: hjm-potion_flacons_alpha_46
+  - first:
+      213: -2551739308815981665
+    second: hjm-potion_flacons_alpha_47
+  - first:
+      213: 899664373434892583
+    second: hjm-potion_flacons_alpha_48
+  - first:
+      213: 5606853903881633289
+    second: hjm-potion_flacons_alpha_49
+  - first:
+      213: -5300933143329679641
+    second: hjm-potion_flacons_alpha_50
+  - first:
+      213: 8748442631021073493
+    second: hjm-potion_flacons_alpha_51
+  - first:
+      213: 3252509400867753450
+    second: hjm-potion_flacons_alpha_52
+  - first:
+      213: -4793872923061997166
+    second: hjm-potion_flacons_alpha_53
+  - first:
+      213: 6846045685097149605
+    second: hjm-potion_flacons_alpha_54
+  - first:
+      213: -10833093387919343
+    second: hjm-potion_flacons_alpha_55
+  - first:
+      213: -5189880424615026606
+    second: hjm-potion_flacons_alpha_56
+  - first:
+      213: -8865771699528894339
+    second: hjm-potion_flacons_alpha_57
+  - first:
+      213: 5217121035768528742
+    second: hjm-potion_flacons_alpha_58
+  - first:
+      213: -2612584771909595365
+    second: hjm-potion_flacons_alpha_59
+  - first:
+      213: -5283722855598727960
+    second: hjm-potion_flacons_alpha_60
+  - first:
+      213: 4209292444798436842
+    second: hjm-potion_flacons_alpha_61
+  - first:
+      213: -1980650073797427529
+    second: hjm-potion_flacons_alpha_62
+  - first:
+      213: 2413423654546622550
+    second: hjm-potion_flacons_alpha_63
+  - first:
+      213: -3054778268918052159
+    second: hjm-potion_flacons_alpha_64
+  - first:
+      213: 832163207983759681
+    second: hjm-potion_flacons_alpha_65
+  - first:
+      213: 5649209662150988985
+    second: hjm-potion_flacons_alpha_66
+  - first:
+      213: -940534806310206023
+    second: hjm-potion_flacons_alpha_67
+  - first:
+      213: 2084706131365777885
+    second: hjm-potion_flacons_alpha_68
+  - first:
+      213: 7002646809792553044
+    second: hjm-potion_flacons_alpha_69
+  - first:
+      213: 4696267687933446645
+    second: hjm-potion_flacons_alpha_70
+  - first:
+      213: -2359237985825823117
+    second: hjm-potion_flacons_alpha_71
+  - first:
+      213: -4084475014223185183
+    second: hjm-potion_flacons_alpha_72
+  - first:
+      213: 8550268385164706458
+    second: hjm-potion_flacons_alpha_73
+  - first:
+      213: -8813495215036148754
+    second: hjm-potion_flacons_alpha_74
+  - first:
+      213: -5816564693295089356
+    second: hjm-potion_flacons_alpha_75
+  - first:
+      213: 701031803490445251
+    second: hjm-potion_flacons_alpha_76
+  - first:
+      213: 7947386395936590880
+    second: hjm-potion_flacons_alpha_77
+  - first:
+      213: 5041420774333745186
+    second: hjm-potion_flacons_alpha_78
+  - first:
+      213: -2964806146509429633
+    second: hjm-potion_flacons_alpha_79
+  - first:
+      213: 982180353741095221
+    second: hjm-potion_flacons_alpha_80
+  - first:
+      213: 5215695540874427127
+    second: hjm-potion_flacons_alpha_81
+  - first:
+      213: -6241219949466725392
+    second: hjm-potion_flacons_alpha_82
+  - first:
+      213: 468924483621278024
+    second: hjm-potion_flacons_alpha_83
+  - first:
+      213: -2378879445633310670
+    second: hjm-potion_flacons_alpha_84
+  - first:
+      213: 6943531096118886466
+    second: hjm-potion_flacons_alpha_85
+  - first:
+      213: 8163252437651910304
+    second: hjm-potion_flacons_alpha_86
+  - first:
+      213: -6332623035251180547
+    second: hjm-potion_flacons_alpha_87
+  - first:
+      213: -8003490081449198131
+    second: hjm-potion_flacons_alpha_88
+  - first:
+      213: 567170571443047941
+    second: hjm-potion_flacons_alpha_89
+  - first:
+      213: 6646925319608849439
+    second: hjm-potion_flacons_alpha_90
+  - first:
+      213: 865584751999649647
+    second: hjm-potion_flacons_alpha_91
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 384
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24f33f137e1c1043a5e3776b4b0b693
+      internalID: 3593511968622805530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 384
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e27d44d7b9805b4a846f041ed52300b
+      internalID: 8457722780126347686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 384
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b82cc0d0fb335546b7b16e1b3afe54b
+      internalID: 1257711816158180349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_3
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 384
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb3c35592a653b4384de665d82121f7
+      internalID: -4589199738084044397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_4
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 384
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f310567bbea5fbc40b043077708eff47
+      internalID: -1129619594036858193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 384
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205143bae0800844e98491acaf3f8206
+      internalID: 4660065175051737267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 177
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03a0e2f3edd66c409e5f328ef1c352a
+      internalID: 9025046887247693916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 176
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4e5f8fc795fad45a58e8595815c9b1
+      internalID: 9197609422714743704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 176
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934e6f5205e6a944e977bc11af629fee
+      internalID: 3039965470206447240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_9
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 177
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a6a8785eb7de144936488aad4d48bd
+      internalID: 2374562220996823761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_10
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 176
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149002eee2b8c0c4ba722ea6b06496c7
+      internalID: -3718985557861837456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_11
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 176
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04528572bb069c42a5b860cf406dc1e
+      internalID: 7881495129911783746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 125
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147636cd21a517f4083e7ecaf18bdcea
+      internalID: 4812193414068150134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 124
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d96c9e9dfc70864f9b82e4eee783508
+      internalID: -8843532054496429116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 121
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeb47456c885914ab5dcc0b341f741a
+      internalID: -851656024518594977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 122
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf387db9b794c940b33899c10e0ec80
+      internalID: 5590583843848910852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 122
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb96091314efd9e438156010d894a7e4
+      internalID: 6162630318161973740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 124
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04700a2eb700cd64bb2305534e1ca58d
+      internalID: -6043609089662207073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_18
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 121
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263ef61531b0c3b48a70bbc5ef870753
+      internalID: 8502090265343201276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 124
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1df5fefa308e54e91999dd43a329a5
+      internalID: -4045921255386712436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 125
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9293bf70fca25c4c8ca9105a7be3aa3
+      internalID: -1737207073093257747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 121
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78806b30026282f44b7a7f31816431dd
+      internalID: 2287477926961524631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 125
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bf133a75a99474b8eb9e936ad6ba20
+      internalID: 6136316974139046671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 124
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090fd2910bcf13240b77ea928ea746ee
+      internalID: -3616986301947544195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 124
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9db6fc9cf4deb46b6aefbf17ba2f3c
+      internalID: -5177662173431816783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 124
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95b7a21759694349a15c1cd0bfd6c81
+      internalID: -8433461701549069799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_26
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 124
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393cfa6a6ba8e6f4d9131997db68eaa9
+      internalID: -1595863557695721667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_27
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 125
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6077ebae88947bb4abb1ebad3013d3d1
+      internalID: -3111690848974403693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_28
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 121
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150adcf0bca12d041ab344ce57ec78a4
+      internalID: -631291860343338075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_29
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 124
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3650a7a7132325940ab066e0f01a0d72
+      internalID: -8559592161720982866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_30
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 124
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfea94782b40744895be52653e86407
+      internalID: -7356908457230076989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 124
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090b014056e0e534c8b1518a069860ea
+      internalID: -7994690854017297570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_32
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 124
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03685449f3328741abf93c3bf0e8c11
+      internalID: -8400836017719702920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_33
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 122
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d74bc6c9109d14fa90b0187f781b13
+      internalID: -8028413402239009975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_34
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 124
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b7f8842bc24b449b6dfecdc2a3629a
+      internalID: -3933690151488299223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_35
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 125
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0053cc04c7295cb4b9b8d7680764e72c
+      internalID: 8287745149225213124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_36
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 124
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5701829ba572f4d8bcefe233656cec
+      internalID: -2298805420540584735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_37
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 124
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0516bd8a72f0a0449b85afbb0ff3693f
+      internalID: 1661519168187206207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_38
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 125
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0eb1de4975fe84aa34c239b909d659
+      internalID: 2228602649799304397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_39
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 124
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08931c8bbf4f4dd4993c5ad094cc6b02
+      internalID: 8513261315686124089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_40
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 124
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1584d258edab74aa267421b32d755e
+      internalID: -3302118184331068844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_41
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 125
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10966e23cbbe5ea4dad5daadc7e066d5
+      internalID: 8176909384971831081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 99
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cef4c2ab751cd44b3a57676e08b04f
+      internalID: -2278738503334194727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 98
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7fd94ba36f8e8408a806e31dc7e4c9
+      internalID: -1367632933817251508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_44
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 95
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee876be6b8c69c44e8706cc5e1380840
+      internalID: 1515654851062564027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_45
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 96
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c980048a15302489b634e16c0cb1bd
+      internalID: -6473783780577413459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca241e291fb4be54fa91bbe72bed7663
+      internalID: 7111701992079960405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_47
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fc1f632e1d3ac49a31ece051c17a2a
+      internalID: -2551739308815981665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_48
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 99
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6d0392c35574e4594ab2f6188393af
+      internalID: 899664373434892583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_49
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 98
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27319da259fc8d042afdb03e0c9f9335
+      internalID: 5606853903881633289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 99
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d66c93fc37e77841b778e279296b18b
+      internalID: -5300933143329679641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_51
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 98
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae357a75f72bc5b43aaab4fcc05439cc
+      internalID: 8748442631021073493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_52
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 98
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3dd87cf9582c54f97efcd5e0f11ac3
+      internalID: 3252509400867753450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_53
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 98
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70caed2e0af098a4d9c3e19f79992c60
+      internalID: -4793872923061997166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_54
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 98
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac343e4cdb382a44dace57f0512dec60
+      internalID: 6846045685097149605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_55
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 98
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271bc8d4718667343be3a59b06b01210
+      internalID: -10833093387919343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_56
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 99
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2456b9096bd0cf944aee81ca9b1d38b4
+      internalID: -5189880424615026606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_57
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304d18f284ec13249ac8283500e21c98
+      internalID: -8865771699528894339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_58
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 99
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5d1de7c7fb3884eb00829f64adbd12
+      internalID: 5217121035768528742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_59
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 98
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd825c9f8467df441afc831e56581636
+      internalID: -2612584771909595365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_60
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70d1fd50575c5c4d9c543b25303f8eb
+      internalID: -5283722855598727960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_61
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 98
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fb8bcf3e010e14989901168eef623e
+      internalID: 4209292444798436842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_62
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58428c7f72ab0924da856386f613bc8d
+      internalID: -1980650073797427529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_63
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5335891a91b9d41958a529b9676ced
+      internalID: 2413423654546622550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_64
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 99
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a98fc23eb599f84d99e520dd9bc362a
+      internalID: -3054778268918052159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_65
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 96
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda5169869cb7e24eacc09fe27b436a9
+      internalID: 832163207983759681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_66
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 95
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4158c8a8a433334994399d770eee266
+      internalID: 5649209662150988985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_67
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aa7ce6717974748b161fff16ef912d
+      internalID: -940534806310206023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_68
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 98
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bed538a9a8de54aa7ef42d576ce4e4
+      internalID: 2084706131365777885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_69
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 95
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135489fee9fd2a745b05e46eedfcebed
+      internalID: 7002646809792553044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_70
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 96
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20eae257fc3eca48bda93ea0e7a1f96
+      internalID: 4696267687933446645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_71
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 98
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e75cb20c6cbe92469112ba3ad5ef7e7
+      internalID: -2359237985825823117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_72
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 98
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf69a4d4f5bb5a49a358f6908abeb7e
+      internalID: -4084475014223185183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_73
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 98
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7271da01b24d34b8a761cf00cbc3db
+      internalID: 8550268385164706458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_74
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 98
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e485c93eb5d9d84458530763c77a5704
+      internalID: -8813495215036148754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_75
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 99
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed457eed7f1049b409e3ebf4b341ac6d
+      internalID: -5816564693295089356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_76
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 99
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203db91ce4a43944c9a1f17115bd2573
+      internalID: 701031803490445251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_77
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 98
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6658c78ad1e12f94e966f621009908b5
+      internalID: 7947386395936590880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_78
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 99
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdba861bba24904ba61214f3f85ba95
+      internalID: 5041420774333745186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_79
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 96
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13974ef07d2c8a34eb3af7fccfa49498
+      internalID: -2964806146509429633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_80
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 98
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd143f3311f476e4eaccc2bcb9cf6de9
+      internalID: 982180353741095221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_81
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 98
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6770efb4fd002d4091c7d051453b6c0
+      internalID: 5215695540874427127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_82
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5efe47b6bd77764e9288d41de2114c3
+      internalID: -6241219949466725392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_83
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 98
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55661b71e94ce534aa875a62ee0e19c1
+      internalID: 468924483621278024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_84
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 98
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8c6f80ec14a2a419cc5b4975c14a87
+      internalID: -2378879445633310670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_85
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 98
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1956419f590f4f49a1a6dee92debc44
+      internalID: 6943531096118886466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_86
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 98
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2800ae372f3a52428126d3afde1e781
+      internalID: 8163252437651910304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_87
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 99
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da1623ccf696764e87a3ad2bf3306a2
+      internalID: -6332623035251180547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_88
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 99
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7052c6f1b5bae478a228521393a3df
+      internalID: -8003490081449198131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_89
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8c08ae07a172d4eaa5d88fe1541909
+      internalID: 567170571443047941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_90
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 99
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f461027bc877e4c4db138496d7e8c4db
+      internalID: 6646925319608849439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-potion_flacons_alpha_91
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3c4e0f49f177f4fa3da9e3b2565389
+      internalID: 865584751999649647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
