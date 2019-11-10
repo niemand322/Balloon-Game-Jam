@@ -17,29 +17,35 @@ public class Conditions : MonoBehaviour
 
         for (int i = 0; i < values.Length; i++) // Fills the Dictionary
         {
-            if (dict.ContainsKey(keys[i])) // If the key already exists, replace the value, otherwise add it
-            {
-                dict[keys[i]] = values[i];
-            }
-            else
-            {
-                dict.Add(keys[i], values[i]);
-            }
+            SaveValueInDictionary(keys[i], values[i]);
         }
     }
 
-    public void Condition(string message) // An action node passes the information in the form: "text_index,key1,true,key2,false"
+    public void PushValue(string message) // An action node passes the information in the form: "key,text_index"
     {
-        // This function takes keys and the expected bool values and returns true only if all keys are included in the dictionary and have the expected bool value. Otherwise it returns false.
-        // ToDo: The calculated logical value is sent directly to the UIManager, maybe one should first store it in the Dictionary and create an extra function for sending a variable.
-        // ToDo: Exchange the text_index with a key in which the result of the evaluation should be stored.
-        // ToDo: Change the name to "ConditionAND", because this function only connects bool values with AND.
-        // ToDo: Add a "ConditionOR", a "ConditionNOT" and a "Push"(Which passes a bool and a text_index to the UIManager.) function.
+        // The answer option with the index text_index is activated if and only if the value of the key is true.
+        var keyIndex = IndexKey(message);
 
-        var tuple = IntegerKeysValue(message);
-        string[] keys = tuple.Item1;
-        bool[] values = tuple.Item2;
-        int text_index = tuple.Item3;
+        if (dict.ContainsKey(keyIndex.Item2))
+        {
+            uIManager.FeedBools((keyIndex.Item1, dict[keyIndex.Item2]));
+        }
+        else
+        {
+            uIManager.FeedBools((keyIndex.Item1, false));
+        }
+        
+    }
+
+    public void ConditionAND(string message) // An action node passes the information in the form: "newkey,key1,true,key2,false"
+    {
+        // This function takes keys and the expected bool values and calculates true only if all keys are included in the dictionary and have the expected bool value. Otherwise it calculates false.
+        // The calculated value will be saved in the dictionary with the newkey.
+
+        var tuple = NewKeyKeysValues(message);
+        string newKey = tuple.Item1;
+        string[] keys = tuple.Item2;
+        bool[] values = tuple.Item3;
 
         bool condition = true;
 
@@ -62,8 +68,57 @@ public class Conditions : MonoBehaviour
             
         }
 
-        uIManager.FeedBools((text_index, condition));
+        SaveValueInDictionary(newKey, condition);
     }
+
+    public void ConditionOR(string message) // An action node passes the information in the form: "newkey,key1,true,key2,false"
+    {
+        // This function takes keys and the expected bool values and calculates true if any key of the keys is included in the dictionary and has the expected bool value. Otherwise it calculates false.
+        // The calculated value will be saved in the dictionary with the newkey.
+
+        var tuple = NewKeyKeysValues(message);
+        string newKey = tuple.Item1;
+        string[] keys = tuple.Item2;
+        bool[] values = tuple.Item3;
+
+        bool condition = false;
+
+        for (int i = 0; i < keys.Length; i++)
+        {
+            if (dict.ContainsKey(keys[i]))
+            {
+                if (dict[keys[i]] == values[i])
+                {
+                    condition = true;
+                    break;
+                }
+            }
+        }
+
+        SaveValueInDictionary(newKey, condition);
+
+    }
+
+    public void ConditionNOT(string message) // This function takes a key, inverts its value, and stores it back in the dictionary.
+    {
+        if (dict.ContainsKey(message))
+        {
+            dict[message] = !dict[message];
+        }
+    }
+
+    private void SaveValueInDictionary(string key, bool value) // Saves a value with a key in the Dictionary
+    {
+        if (dict.ContainsKey(key)) // If the key already exists, replace the value, otherwise add it
+        {
+            dict[key] = value;
+        }
+        else
+        {
+            dict.Add(key, value);
+        }
+    }
+
 
     (string[], bool[]) KeysValues(string message) // This function splits the string and stores the elements in an array.
     {
@@ -71,19 +126,23 @@ public class Conditions : MonoBehaviour
         return SplittingKeysValues(keysAndValues); // Splits the array of keys and values into two unmixed arrays.
     }
 
-    (string[],bool[],int) IntegerKeysValue(string message) // This function splits the string and stores the first entry as a single int and the rest in an array.
+    (int, string) IndexKey(string message)
     {
-        // ToDo: Matching the changes above, the single int here would have to be made into a single string for the key
+        string[] keyAndIndex = message.Split(',');
+        int.TryParse(keyAndIndex[1], out int var);
+        return (var, keyAndIndex[0]);
+    }
+
+    (string,string[],bool[]) NewKeyKeysValues(string message) // This function splits the string and stores the first entry as a single string and the rest in an array.
+    {
 
         string[] splitmessage = message.Split(',');
         string[] keysAndValues = new string[splitmessage.Length - 1];
         Array.Copy(splitmessage, 1, keysAndValues, 0, splitmessage.Length - 1);
 
         var tuple = SplittingKeysValues(keysAndValues); // Splits the array of keys and values into two unmixed arrays.
-
-        int.TryParse(splitmessage[0], out int var);
-
-        return (tuple.Item1,tuple.Item2, var);
+        
+        return (splitmessage[0], tuple.Item1,tuple.Item2);
     }
 
     (string[], bool[]) SplittingKeysValues(string[] keysAndValues) // This function takes an array of alternating keys and values and returns two unmixed arrays
