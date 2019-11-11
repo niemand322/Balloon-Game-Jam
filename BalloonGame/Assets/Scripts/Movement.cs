@@ -34,11 +34,11 @@ public class Movement : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
         if(horizontal == -1)
         {
-            playerSprite.flipX = false;
+            playerSprite.flipX = true;
         }
         else if(horizontal == 1)
         {
-            playerSprite.flipX = true;
+            playerSprite.flipX = false;
         }
     }
 
