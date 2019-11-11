@@ -1547,6 +1547,7 @@ MonoBehaviour:
   - Example3Dialogue
   - Example4_dialogue
   - Fireplace
+  - InterrogationGeneral
   - InterrogationLady
   - Introduction
   - Item_LookUp
@@ -1558,7 +1559,7 @@ MonoBehaviour:
   - TriggeredDude
   - Waterbottle
   - Witch
-  assignedIndex: 16
+  assignedIndex: 17
   assignedID: 45075
   assignedDialogue: Waterbottle
   interactionCount: 0
