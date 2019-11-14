@@ -75,7 +75,7 @@ MonoBehaviour:
       visible: 1
     - text: Get out of my kitchen-a. I've told you so many times tat you cano't ave
         any of tis cooking-a. Dese arrre forrr de Lorrrd's gooests-a.
-      extraData: ExtraData
+      extraData: italic
       inputSetIndex: 0
       outputNodeIndex: -1
       outActionIndex: -1
@@ -91,7 +91,7 @@ MonoBehaviour:
       visible: 1
     - text: 'I alrrready gave you de rrremains of de meal yestoiday. If you walk in
         ere so frrreely doorrring de day, I wil-l be firrred because of you. '
-      extraData: ExtraData
+      extraData: italic
       inputSetIndex: 0
       outputNodeIndex: -1
       outActionIndex: -1
@@ -455,14 +455,14 @@ MonoBehaviour:
       extraData: ExtraData
       inputSetIndex: 6
       outputNodeIndex: -1
-      outActionIndex: -1
+      outActionIndex: 5
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 302
+        y: 103
+        width: 30
+        height: 21
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -604,8 +604,8 @@ MonoBehaviour:
     - text: Ask about the cook.
       extraData: ExtraData
       inputSetIndex: 9
-      outputNodeIndex: 18
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 4
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -664,8 +664,8 @@ MonoBehaviour:
     ID: 13
     rect:
       serializedVersion: 2
-      x: 2510
-      y: -850
+      x: 2580
+      y: -1010
       width: 349
       height: 215
     pTag: Cook
@@ -1507,8 +1507,8 @@ MonoBehaviour:
         chef in Airmerica.
       extraData: ExtraData
       inputSetIndex: 22
-      outputNodeIndex: 23
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 3
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -1577,20 +1577,20 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 6
+  - commentCount: 7
     s_comment:
     - text: Tat's a voiy special storrry.
       extraData: ExtraData
       inputSetIndex: 24
-      outputNodeIndex: -1
+      outputNodeIndex: 25
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 302
+        y: 59
+        width: 30
+        height: 21
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1657,7 +1657,25 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Comment...
+    - text: 'I rrrememboi exactly what Lorrrd Zep-pelin said to me back den: "Is it
+        ydrrrogen-frrree? Because of my ydrrrogen intoloiance, I cano only eat elioom
+        food-a."'
+      extraData: ExtraData
+      inputSetIndex: 24
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Of courrrse! I only oose de best ingrrredients forrr my dishes-a. It's-a
+        a question of cook onorrr-a!
       extraData: ExtraData
       inputSetIndex: 24
       outputNodeIndex: -1
@@ -1678,7 +1696,570 @@ MonoBehaviour:
       x: 4920
       y: -150
       width: 349
-      height: 431
+      height: 532
+    pTag: Cook
+    expand: 1
+    sprite: {fileID: 21300000, guid: bb457be3020225c46932651b63598c36, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: '[That means the cook definitely knew about Lord Zeppelin''s condition.]'
+      extraData: ExtraData
+      inputSetIndex: 25
+      outputNodeIndex: 26
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 41
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Thank you very much for this detailed story.
+      extraData: ExtraData
+      inputSetIndex: 25
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 28
+    rect:
+      serializedVersion: 2
+      x: 5280
+      y: -150
+      width: 349
+      height: 170
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: You arrre always welcome ere, Signor olmes-a. Arrivederci.
+      extraData: ExtraData
+      inputSetIndex: 26
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 29
+    rect:
+      serializedVersion: 2
+      x: 5640
+      y: -150
+      width: 349
+      height: 222
+    pTag: Cook
+    expand: 1
+    sprite: {fileID: 21300000, guid: bb457be3020225c46932651b63598c36, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Palloncino, can you tell me again the story of how the lord hired you
+        as a cook?
+      extraData: ExtraData
+      inputSetIndex: 27
+      outputNodeIndex: 24
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 41
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 31
+    rect:
+      serializedVersion: 2
+      x: 4560
+      y: 0
+      width: 349
+      height: 141
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Confront with the handwriting comparison.
+      extraData: ExtraData
+      inputSetIndex: 28
+      outputNodeIndex: 30
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Ask about the love letter.
+      extraData: ExtraData
+      inputSetIndex: 28
+      outputNodeIndex: 29
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 88
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I don't have any more questions.
+      extraData: ExtraData
+      inputSetIndex: 28
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 35
+    rect:
+      serializedVersion: 2
+      x: 2610
+      y: 690
+      width: 349
+      height: 172
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 3
+    s_comment:
+    - text: '"Signora hot air balloon, I love you and cannot bear to live another
+        day without you."'
+      extraData: ExtraData
+      inputSetIndex: 29
+      outputNodeIndex: 31
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 41
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Palloncino, you know who wrote this letter, don't you?
+      extraData: ExtraData
+      inputSetIndex: 29
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Maybe you should just tell me what this is all about.
+      extraData: ExtraData
+      inputSetIndex: 29
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 36
+    rect:
+      serializedVersion: 2
+      x: 3010
+      y: 730
+      width: 349
+      height: 199
+    pTag: Cook
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Comment...!?!?!?!
+      extraData: ExtraData
+      inputSetIndex: 30
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 38
+    rect:
+      serializedVersion: 2
+      x: 3050
+      y: 490
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: It wasn't me. It wasn't me. I cano't-a, she was de don-na of my bos-s-a.
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: 32
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 41
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Tat would be completely oonprrrofes-sional-a. I moost not love er-a.
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 39
+    rect:
+      serializedVersion: 2
+      x: 3370
+      y: 730
+      width: 349
+      height: 277
+    pTag: Cook
+    expand: 1
+    sprite: {fileID: 21300000, guid: bb457be3020225c46932651b63598c36, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 4
+    s_comment:
+    - text: She WAS the boss's wife, Palloncino.
+      extraData: ExtraData
+      inputSetIndex: 32
+      outputNodeIndex: 33
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: You know that's not very well received in court. Not at all. That's a
+        strong motive for murder.
+      extraData: ExtraData
+      inputSetIndex: 32
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: If you believe the church of Balloonia, the oldest of them all.
+      extraData: ExtraData
+      inputSetIndex: 32
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: The evidence is enough to convince the judges and you know what the punishment
+        for murder in Balloonia is, right?
+      extraData: ExtraData
+      inputSetIndex: 32
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 40
+    rect:
+      serializedVersion: 2
+      x: 3730
+      y: 730
+      width: 349
+      height: 267
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Signor ShAIRRRlock olmes-a, I beg you. Believe me, I cano-not tel-l you
+        any morrre!!!
+      extraData: fs,28,bold,italic
+      inputSetIndex: 33
+      outputNodeIndex: 34
+      outActionIndex: -1
+      showmore: 1
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 41
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 41
+    rect:
+      serializedVersion: 2
+      x: 4090
+      y: 730
+      width: 349
+      height: 262
+    pTag: Cook
+    expand: 1
+    sprite: {fileID: 21300000, guid: bb457be3020225c46932651b63598c36, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 5
+    s_comment:
+    - text: '[He is lying.]'
+      extraData: ExtraData
+      inputSetIndex: 34
+      outputNodeIndex: 35
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: '[But he must have a strong reason not to tell me.]'
+      extraData: ExtraData
+      inputSetIndex: 34
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: '[If I had proof that he wrote the love letter, I could confront him with
+        it. But how can I prove it?]'
+      extraData: ExtraData
+      inputSetIndex: 34
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: '[Eureka! I have an idea!]'
+      extraData: ExtraData
+      inputSetIndex: 34
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Palloncino, I decided to help you.
+      extraData: ExtraData
+      inputSetIndex: 34
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 42
+    rect:
+      serializedVersion: 2
+      x: 4450
+      y: 730
+      width: 349
+      height: 236
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: 'GRAZIE INFINITE,
+
+        SIGNOR OLMES!!!'
+      extraData: fs,45,bold,italic
+      inputSetIndex: 35
+      outputNodeIndex: -1
+      outActionIndex: 7
+      showmore: 1
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: De joodges wil-l believe you! You arrre de famous Signor ShAIRRRlock olmes-a!
+      extraData: ExtraData
+      inputSetIndex: 35
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I owe you
+      extraData: ExtraData
+      inputSetIndex: 35
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 43
+    rect:
+      serializedVersion: 2
+      x: 4810
+      y: 730
+      width: 349
+      height: 313
     pTag: Cook
     expand: 1
     sprite: {fileID: 21300000, guid: bb457be3020225c46932651b63598c36, type: 3}
@@ -1816,6 +2397,276 @@ MonoBehaviour:
       height: 176
     ID: 11
     outPlayerIndex: 9
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: SetValues
+    nameIndex: 1
+    methodIndex: 4
+    paramIndex: 2
+    opts:
+    - '[No method]'
+    - SetPlayerChoice
+    - FeedBools
+    - GoToIndex
+    - SetValues
+    - PushValue
+    - JumpCondition
+    - ConditionAND
+    - ConditionOR
+    - ConditionNOT
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - ShowItem
+    nameOpts:
+    - '[No object]'
+    - UIManager
+    - Text (TMP)
+    - Text (TMP)
+    - General
+    - Label_Player
+    - Bottle
+    - Text (TMP)
+    - Lady
+    - Cook
+    - Fireplace
+    - Text_NPC
+    - Text (TMP)
+    param_bool: 0
+    param_string: cookstory,true
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 4560
+      y: -330
+      width: 200
+      height: 176
+    ID: 32
+    outPlayerIndex: 23
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: JumpCondition
+    nameIndex: 1
+    methodIndex: 6
+    paramIndex: 2
+    opts:
+    - '[No method]'
+    - SetPlayerChoice
+    - FeedBools
+    - GoToIndex
+    - SetValues
+    - PushValue
+    - JumpCondition
+    - ConditionAND
+    - ConditionOR
+    - ConditionNOT
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - ShowItem
+    nameOpts:
+    - '[No object]'
+    - UIManager
+    - Text (TMP)
+    - Text (TMP)
+    - General
+    - Label_Player
+    - Bottle
+    - Text (TMP)
+    - Lady
+    - Cook
+    - Fireplace
+    - Text_NPC
+    - Text (TMP)
+    param_bool: 0
+    param_string: cookstory,31
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2540
+      y: -110
+      width: 200
+      height: 176
+    ID: 30
+    outPlayerIndex: 18
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: PushValue
+    nameIndex: 1
+    methodIndex: 5
+    paramIndex: 2
+    opts:
+    - '[No method]'
+    - SetPlayerChoice
+    - FeedBools
+    - GoToIndex
+    - SetValues
+    - PushValue
+    - JumpCondition
+    - ConditionAND
+    - ConditionOR
+    - ConditionNOT
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - ShowItem
+    nameOpts:
+    - '[No object]'
+    - UIManager
+    - Text (TMP)
+    - Text (TMP)
+    - General
+    - Label_Player
+    - Bottle
+    - Text (TMP)
+    - Lady
+    - Cook
+    - Fireplace
+    - Text_NPC
+    - Text (TMP)
+    param_bool: 0
+    param_string: provenletter,0
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2120
+      y: 170
+      width: 200
+      height: 176
+    ID: 33
+    outPlayerIndex: -1
+    outActionIndex: 6
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: PushValue
+    nameIndex: 1
+    methodIndex: 5
+    paramIndex: 2
+    opts:
+    - '[No method]'
+    - SetPlayerChoice
+    - FeedBools
+    - GoToIndex
+    - SetValues
+    - PushValue
+    - JumpCondition
+    - ConditionAND
+    - ConditionOR
+    - ConditionNOT
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - ShowItem
+    nameOpts:
+    - '[No object]'
+    - UIManager
+    - Text (TMP)
+    - Text (TMP)
+    - General
+    - Label_Player
+    - Bottle
+    - Text (TMP)
+    - Lady
+    - Cook
+    - Fireplace
+    - Text_NPC
+    - Text (TMP)
+    param_bool: 0
+    param_string: writerletter,1
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2380
+      y: 420
+      width: 200
+      height: 176
+    ID: 34
+    outPlayerIndex: 28
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: SetValues
+    nameIndex: 1
+    methodIndex: 4
+    paramIndex: 2
+    opts:
+    - '[No method]'
+    - SetPlayerChoice
+    - FeedBools
+    - GoToIndex
+    - SetValues
+    - PushValue
+    - JumpCondition
+    - ConditionAND
+    - ConditionOR
+    - ConditionNOT
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - ShowItem
+    nameOpts:
+    - '[No object]'
+    - UIManager
+    - Text (TMP)
+    - Text (TMP)
+    - General
+    - Label_Player
+    - Bottle
+    - Text (TMP)
+    - Lady
+    - Cook
+    - Fireplace
+    - Text_NPC
+    - Text (TMP)
+    param_bool: 0
+    param_string: provenletter,true
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 5460
+      y: 720
+      width: 200
+      height: 176
+    ID: 37
+    outPlayerIndex: -1
     outActionIndex: -1
     more: 0
     ovrStartNode: -1
