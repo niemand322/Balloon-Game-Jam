@@ -317,45 +317,45 @@ MonoBehaviour:
     - text: The lady.
       extraData: ExtraData
       inputSetIndex: 5
-      outputNodeIndex: -1
+      outputNodeIndex: 6
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 302
+        y: 59
+        width: 30
+        height: 21
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     - text: The general.
       extraData: ExtraData
       inputSetIndex: 5
-      outputNodeIndex: -1
+      outputNodeIndex: 7
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 302
+        y: 81
+        width: 30
+        height: 21
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     - text: The cook.
       extraData: ExtraData
       inputSetIndex: 5
-      outputNodeIndex: -1
+      outputNodeIndex: 8
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 302
+        y: 103
+        width: 30
+        height: 21
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -387,6 +387,406 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Lady Ending.
+      extraData: ExtraData
+      inputSetIndex: 6
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 13
+    rect:
+      serializedVersion: 2
+      x: 3340
+      y: -570
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: It's quite clear that the general is the murderer.
+      extraData: ExtraData
+      inputSetIndex: 7
+      outputNodeIndex: 9
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 14
+    rect:
+      serializedVersion: 2
+      x: 3340
+      y: -380
+      width: 349
+      height: 128
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Cook Ending.
+      extraData: ExtraData
+      inputSetIndex: 8
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 15
+    rect:
+      serializedVersion: 2
+      x: 3330
+      y: -130
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Could you explain that?
+      extraData: ExtraData
+      inputSetIndex: 9
+      outputNodeIndex: 10
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 16
+    rect:
+      serializedVersion: 2
+      x: 3700
+      y: -380
+      width: 349
+      height: 215
+    pTag: 
+    expand: 1
+    sprite: {fileID: 21300000, guid: 27fcb31a9066b7a4c850d0c260b75cc5, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 4
+    s_comment:
+    - text: 'After the war, things were much worse for the General than they had been
+        before. He is a great warrior, but not a businessman. '
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: 11
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 54
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: His mismanagement brought his family business to the brink of bankruptcy.
+        But the general is a very proud man and he wanted to avoid this scandal at
+        all costs.
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: So he decided to use his influence in order to save his business by illegal
+        means. Tax fraud, moonlighting, he deceived the customers by delivering them
+        worse goods than agreed.
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: 'When Lord Zeppelin learned of this, he demanded that the general bring
+        himself to justice. But probably the general asked him to remain silent or
+        even tried to bribe him. '
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 17
+    rect:
+      serializedVersion: 2
+      x: 4080
+      y: -570
+      width: 349
+      height: 384
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: And when he refused, he killed him!
+      extraData: ExtraData
+      inputSetIndex: 11
+      outputNodeIndex: 12
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 18
+    rect:
+      serializedVersion: 2
+      x: 4450
+      y: -570
+      width: 349
+      height: 222
+    pTag: 
+    expand: 1
+    sprite: {fileID: 21300000, guid: 27fcb31a9066b7a4c850d0c260b75cc5, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Not quite. At first the general tried to use the invitation to dinner
+        to secretly steal the incriminating materials from the Lord's study.
+      extraData: ExtraData
+      inputSetIndex: 12
+      outputNodeIndex: 13
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 67
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: But he couldn't find them. All he could find were the Lord's air pressure
+        medications.
+      extraData: ExtraData
+      inputSetIndex: 12
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: And that's when he decided to murder him!
+      extraData: fs,30
+      inputSetIndex: 12
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 1
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 19
+    rect:
+      serializedVersion: 2
+      x: 4810
+      y: -570
+      width: 349
+      height: 265
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: Excellent!
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: 14
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: You've outdone yourself again, Mr. ShAIRlock Holmes.
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 20
+    rect:
+      serializedVersion: 2
+      x: 5180
+      y: -570
+      width: 349
+      height: 244
+    pTag: 
+    expand: 1
+    sprite: {fileID: 21300000, guid: 27fcb31a9066b7a4c850d0c260b75cc5, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Elementary.
+      extraData: ExtraData
+      inputSetIndex: 14
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: After I managed to find the incriminating documents, the rest was a piece
+        of cake.
+      extraData: ExtraData
+      inputSetIndex: 14
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Comment...
+      extraData: ExtraData
+      inputSetIndex: 14
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 21
+    rect:
+      serializedVersion: 2
+      x: 5540
+      y: -570
+      width: 349
+      height: 185
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
   S_actionNodes:
   - pauseHere: 0
     gameObjectName: UIManager
@@ -663,8 +1063,8 @@ MonoBehaviour:
       width: 200
       height: 176
     ID: 10
-    outPlayerIndex: 5
-    outActionIndex: -1
+    outPlayerIndex: -1
+    outActionIndex: 5
     more: 0
     ovrStartNode: -1
     renameDialogue: 
@@ -709,7 +1109,7 @@ MonoBehaviour:
     - Text_NPC
     - Text (TMP)
     param_bool: 0
-    param_string: cooksolved,cookstory,true
+    param_string: cooksolved,cookstory,true,loveconfession,true,medstudy,true
     param_int: 0
     param_float: 0
     rect:
@@ -720,7 +1120,7 @@ MonoBehaviour:
       height: 176
     ID: 11
     outPlayerIndex: -1
-    outActionIndex: -1
+    outActionIndex: 6
     more: 0
     ovrStartNode: -1
     renameDialogue: 
@@ -775,7 +1175,7 @@ MonoBehaviour:
       width: 200
       height: 176
     ID: 12
-    outPlayerIndex: -1
+    outPlayerIndex: 5
     outActionIndex: -1
     more: 0
     ovrStartNode: -1

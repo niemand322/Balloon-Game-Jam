@@ -638,6 +638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diags:
+  - Bookshelf
   - Charlie
   - CommentModifier
   - CrazyCap
@@ -651,6 +652,7 @@ MonoBehaviour:
   - Introduction
   - Item_LookUp
   - Laura
+  - Mirror
   - MrCube
   - NPCOnly
   - QuestChartDemo
@@ -658,7 +660,7 @@ MonoBehaviour:
   - TriggeredDude
   - Waterbottle
   - Witch
-  assignedIndex: 16
+  assignedIndex: 18
   assignedID: 32469
   assignedDialogue: TestDialogue
   interactionCount: 0
