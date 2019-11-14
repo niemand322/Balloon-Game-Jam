@@ -6,7 +6,6 @@ using VIDE_Data;
 public class Movement : MonoBehaviour
 {
     Rigidbody2D body;
-    SpriteRenderer playerSprite;
 
     float horizontal;
     float vertical;
@@ -15,12 +14,9 @@ public class Movement : MonoBehaviour
     public float runSpeedVertical = 2f;
     public float runSpeedHorizontal = 1.4f;
 
-
-
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
-        playerSprite = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -32,14 +28,6 @@ public class Movement : MonoBehaviour
 
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
-        if(horizontal == -1)
-        {
-            playerSprite.flipX = true;
-        }
-        else if(horizontal == 1)
-        {
-            playerSprite.flipX = false;
-        }
     }
 
     void FixedUpdate()
