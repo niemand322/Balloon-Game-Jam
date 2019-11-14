@@ -1392,7 +1392,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: fb3e308d2a7b96448aaa48c1fb240874, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1444,6 +1444,7 @@ MonoBehaviour:
   - Introduction
   - Item_LookUp
   - Laura
+  - Mirror
   - MrCube
   - NPCOnly
   - QuestChartDemo
@@ -1498,7 +1499,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.5, y: 1.5}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2155,6 +2156,7 @@ MonoBehaviour:
   - Introduction
   - Item_LookUp
   - Laura
+  - Mirror
   - MrCube
   - NPCOnly
   - QuestChartDemo
@@ -2162,7 +2164,7 @@ MonoBehaviour:
   - TriggeredDude
   - Waterbottle
   - Witch
-  assignedIndex: 19
+  assignedIndex: 20
   assignedID: 45075
   assignedDialogue: Waterbottle
   interactionCount: 0
@@ -2788,6 +2790,7 @@ MonoBehaviour:
   - Introduction
   - Item_LookUp
   - Laura
+  - Mirror
   - MrCube
   - NPCOnly
   - QuestChartDemo
@@ -3353,6 +3356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diags:
+  - Bookshelf
   - Charlie
   - CommentModifier
   - CrazyCap
@@ -3366,6 +3370,7 @@ MonoBehaviour:
   - Introduction
   - Item_LookUp
   - Laura
+  - Mirror
   - MrCube
   - NPCOnly
   - QuestChartDemo
@@ -3373,7 +3378,7 @@ MonoBehaviour:
   - TriggeredDude
   - Waterbottle
   - Witch
-  assignedIndex: 6
+  assignedIndex: 7
   assignedID: 7043
   assignedDialogue: Fireplace
   interactionCount: 0
