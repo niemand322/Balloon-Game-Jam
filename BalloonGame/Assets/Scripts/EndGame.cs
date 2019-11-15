@@ -8,4 +8,12 @@ public class EndGame : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }

@@ -418,7 +418,7 @@ RectTransform:
   m_GameObject: {fileID: 108956439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.385, y: 1.385, z: 1.385}
+  m_LocalScale: {x: 0.43, y: 0.43, z: 0.43}
   m_Children:
   - {fileID: 1892273959}
   - {fileID: 1679788095}
@@ -428,7 +428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 554, y: 269}
+  m_AnchoredPosition: {x: 172, y: 137.5}
   m_SizeDelta: {x: 800, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &108956444
@@ -563,6 +563,7 @@ GameObject:
   - component: {fileID: 296721663}
   - component: {fileID: 296721662}
   - component: {fileID: 296721661}
+  - component: {fileID: 296721666}
   - component: {fileID: 296721664}
   - component: {fileID: 296721665}
   m_Layer: 0
@@ -691,6 +692,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bigPicture: {fileID: 1514798319}
   sprite: {fileID: 21300000, guid: f7cdcfe0d5773cc4081a056e0f23453f, type: 3}
+--- !u!114 &296721666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296721660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53abe527dadbe846b9608659d719c3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &412610632
 GameObject:
   m_ObjectHideFlags: 0
@@ -3503,6 +3516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   diags:
+  - Bookshelf
   - Charlie
   - CommentModifier
   - CrazyCap
@@ -3516,6 +3530,7 @@ MonoBehaviour:
   - Introduction
   - Item_LookUp
   - Laura
+  - Mirror
   - MrCube
   - NPCOnly
   - QuestChartDemo
@@ -3523,7 +3538,7 @@ MonoBehaviour:
   - TriggeredDude
   - Waterbottle
   - Witch
-  assignedIndex: 7
+  assignedIndex: 8
   assignedID: 12668
   assignedDialogue: InterrogationCook
   interactionCount: 0
