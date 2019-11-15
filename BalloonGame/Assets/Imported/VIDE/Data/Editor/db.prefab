@@ -43,15 +43,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268dc70b105993846a123be43345df63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileIndex: 14
+  fileIndex: 9
   skinIndex: 0
   loadTag: 
   startID: 0
   curFocusID: 0
-  currentID: 4149
+  currentID: 59452
   autosave: 1
   previewPanning: 0
-  currentDiag: 14
+  currentDiag: 9
   locEdit: 0
   pNodeID: 18
   aNodeID: 2
@@ -73,7 +73,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: 'Good evening Mr. ShAIRlock Holmes. '
+    - text: Ah, the detective. Mr. ShAIRlock Holmes.
       extraData: ExtraData
       inputSetIndex: 0
       outputNodeIndex: -1
@@ -88,7 +88,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: You look splendid, as always.
+    - text: Have you already figured anything out?
       extraData: ExtraData
       inputSetIndex: 0
       outputNodeIndex: -1
@@ -103,7 +103,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: What brings you to me today?
+    - text: That reminds me of a story from the war, a case of the military police...
       extraData: ExtraData
       inputSetIndex: 0
       outputNodeIndex: -1
@@ -121,19 +121,19 @@ MonoBehaviour:
     ID: 0
     rect:
       serializedVersion: 2
-      x: 70
-      y: 260
+      x: -400
+      y: -50
       width: 349
-      height: 288
-    pTag: 
+      height: 315
+    pTag: General
     expand: 1
-    sprite: {fileID: 21300000, guid: 27fcb31a9066b7a4c850d0c260b75cc5, type: 3}
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 2
+  - commentCount: 1
     s_comment:
-    - text: I need your assistance with the case of the murdered Lord Zeppelin.
+    - text: I can't imagine this being relevant to the case.
       extraData: ExtraData
       inputSetIndex: 1
       outputNodeIndex: 2
@@ -144,46 +144,30 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 41
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: It's easier to arrange the facts and evidences in my head when someone's
-        listening.
-      extraData: ExtraData
-      inputSetIndex: 1
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        height: 28
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 1
     rect:
       serializedVersion: 2
-      x: 440
-      y: 260
+      x: -20
+      y: -50
       width: 349
-      height: 183
+      height: 128
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 5
     s_comment:
-    - text: Well, what do you want to talk about?
+    - text: 'Yes, young people like you cannot even imagine the war. '
       extraData: ExtraData
       inputSetIndex: 2
-      outputNodeIndex: -1
-      outActionIndex: 0
+      outputNodeIndex: 3
+      outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -194,22 +178,82 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
+    - text: We had fought the airplanes back then.
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Balloon against plane. Those were the days.
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Days when there was still heroism and real camaraderie.
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I fought side by side with Lord Zeppelin back then.
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
     ID: 2
     rect:
       serializedVersion: 2
-      x: 810
-      y: 260
+      x: 350
+      y: -50
       width: 349
-      height: 222
-    pTag: 
+      height: 338
+    pTag: General
     expand: 1
-    sprite: {fileID: 21300000, guid: 27fcb31a9066b7a4c850d0c260b75cc5, type: 3}
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 4
+  - commentCount: 1
     s_comment:
-    - text: Solve the case.
+    - text: '[The general and the lord know each other from the war?]'
       extraData: ExtraData
       inputSetIndex: 3
       outputNodeIndex: 4
@@ -220,13 +264,43 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 21
+        height: 28
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Talk about the suspects.
+    ID: 3
+    rect:
+      serializedVersion: 2
+      x: 710
+      y: -50
+      width: 349
+      height: 128
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 8
+    s_comment:
+    - text: I tell you, the planes are all the same. They have no honor.
       extraData: ExtraData
-      inputSetIndex: 3
+      inputSetIndex: 4
+      outputNodeIndex: 5
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Believe me, I've seen things no balloon should see.
+      extraData: ExtraData
+      inputSetIndex: 4
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -239,9 +313,10 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Talk about unidentified clues.
+    - text: Comrades, good friends who popped right and left of me as we were being
+        shot at by darts.
       extraData: ExtraData
-      inputSetIndex: 3
+      inputSetIndex: 4
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -254,9 +329,70 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: I need to find more clues.
+    - text: Melted balloon rubber scorched by flames. I'll never forget that smell.
       extraData: ExtraData
-      inputSetIndex: 3
+      inputSetIndex: 4
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: The enemies even used their feared glass splinter gas when we had to entrench
+        ourselves against their attacks.
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: That's not something you can imagine.
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Nevertheless, we managed to strike back the enemies and protect our homeland.
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Maybe the planes got the lord after all these years?
+      extraData: ExtraData
+      inputSetIndex: 4
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -272,23 +408,23 @@ MonoBehaviour:
     ID: 4
     rect:
       serializedVersion: 2
-      x: 1420
-      y: 200
+      x: 1070
+      y: -50
       width: 349
-      height: 187
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
+      height: 490
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
     vars: []
     varKeys: []
-    isPlayer: 1
+    isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: So you know who the culprit is? Who did it?
+    - text: I believe that foreign involvement is extremely unlikely in this case.
       extraData: ExtraData
-      inputSetIndex: 4
-      outputNodeIndex: -1
-      outActionIndex: 1
+      inputSetIndex: 5
+      outputNodeIndex: 6
+      outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -302,22 +438,22 @@ MonoBehaviour:
     ID: 5
     rect:
       serializedVersion: 2
-      x: 1810
+      x: 1430
       y: -50
       width: 349
-      height: 222
+      height: 128
     pTag: 
-    expand: 1
-    sprite: {fileID: 21300000, guid: 27fcb31a9066b7a4c850d0c260b75cc5, type: 3}
+    expand: 0
+    sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 4
+  - commentCount: 2
     s_comment:
-    - text: The lady.
+    - text: Yeah, I also believe the planes can never get to us, balloons.
       extraData: ExtraData
-      inputSetIndex: 5
-      outputNodeIndex: 6
+      inputSetIndex: 6
+      outputNodeIndex: 7
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -325,43 +461,13 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 21
+        height: 28
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: The general.
+    - text: Balloons will always rule. Rule, Balloonia!
       extraData: ExtraData
-      inputSetIndex: 5
-      outputNodeIndex: 7
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 81
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: The cook.
-      extraData: ExtraData
-      inputSetIndex: 5
-      outputNodeIndex: 8
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 103
-        width: 30
-        height: 21
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: I'm not sure.
-      extraData: ExtraData
-      inputSetIndex: 5
+      inputSetIndex: 6
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -377,38 +483,38 @@ MonoBehaviour:
     ID: 6
     rect:
       serializedVersion: 2
-      x: 2920
-      y: -380
+      x: 1790
+      y: -50
       width: 349
-      height: 187
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
+      height: 251
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
     vars: []
     varKeys: []
-    isPlayer: 1
+    isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Lady Ending.
+    - text: 'Oh, no. Please don''t. '
       extraData: ExtraData
-      inputSetIndex: 6
+      inputSetIndex: 7
       outputNodeIndex: -1
-      outActionIndex: -1
+      outActionIndex: 0
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 302
+        y: 59
+        width: 30
+        height: 21
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 13
+    ID: 7
     rect:
       serializedVersion: 2
-      x: 3340
-      y: -570
+      x: 2160
+      y: -50
       width: 349
       height: 121
     pTag: 
@@ -417,12 +523,12 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 3
     s_comment:
-    - text: It's quite clear that the general is the murderer.
+    - text: Rule, Balloonia!
       extraData: ExtraData
-      inputSetIndex: 7
-      outputNodeIndex: 9
+      inputSetIndex: 8
+      outputNodeIndex: 10
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -430,26 +536,11 @@ MonoBehaviour:
         x: 302
         y: 59
         width: 30
-        height: 28
+        height: 21
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 14
-    rect:
-      serializedVersion: 2
-      x: 3340
-      y: -380
-      width: 349
-      height: 128
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Cook Ending.
+    - text: Balloonia rule the waves;
       extraData: ExtraData
       inputSetIndex: 8
       outputNodeIndex: -1
@@ -464,13 +555,133 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 15
+    - text: Balloons never, never, never shall be slaves.
+      extraData: ExtraData
+      inputSetIndex: 8
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 8
     rect:
       serializedVersion: 2
-      x: 3330
-      y: -130
+      x: 2540
+      y: -50
       width: 349
-      height: 121
+      height: 266
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: '...'
+      extraData: ExtraData
+      inputSetIndex: 9
+      outputNodeIndex: 14
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Mr. General?
+      extraData: ExtraData
+      inputSetIndex: 9
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 9
+    rect:
+      serializedVersion: 2
+      x: 1490
+      y: 250
+      width: 349
+      height: 143
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: God save the king!
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: 11
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: And God save Baloonia!
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: May I ask you a few questions?
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 11
+    rect:
+      serializedVersion: 2
+      x: 2910
+      y: -50
+      width: 349
+      height: 165
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -479,10 +690,145 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Could you explain that?
+    - text: Aye.
       extraData: ExtraData
-      inputSetIndex: 9
-      outputNodeIndex: 10
+      inputSetIndex: 11
+      outputNodeIndex: 12
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 12
+    rect:
+      serializedVersion: 2
+      x: 3290
+      y: -50
+      width: 349
+      height: 215
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: '[What should I ask the general about?]'
+      extraData: ExtraData
+      inputSetIndex: 12
+      outputNodeIndex: -1
+      outActionIndex: 1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 13
+    rect:
+      serializedVersion: 2
+      x: 3660
+      y: -40
+      width: 349
+      height: 128
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 4
+    s_comment:
+    - text: Ask about the lord.
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Ask about everyone present.
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: -1
+      outActionIndex: 2
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 81
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Ask about something else.
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: -1
+      outActionIndex: 5
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 103
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Don't ask any questions.
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: 51
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 125
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 15
+    rect:
+      serializedVersion: 2
+      x: 4050
+      y: -130
+      width: 349
+      height: 187
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Rule, Balloonia!
+      extraData: ExtraData
+      inputSetIndex: 14
+      outputNodeIndex: 15
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -497,196 +843,22 @@ MonoBehaviour:
     ID: 16
     rect:
       serializedVersion: 2
-      x: 3700
-      y: -380
+      x: 1850
+      y: 250
       width: 349
       height: 215
-    pTag: 
+    pTag: General
     expand: 1
-    sprite: {fileID: 21300000, guid: 27fcb31a9066b7a4c850d0c260b75cc5, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 4
-    s_comment:
-    - text: 'After the war, things were much worse for the General than they had been
-        before. He is a great warrior, but not a businessman. '
-      extraData: ExtraData
-      inputSetIndex: 10
-      outputNodeIndex: 11
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 54
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: His mismanagement brought his family business to the brink of bankruptcy.
-        But the general is a very proud man and he wanted to avoid this scandal at
-        all costs.
-      extraData: ExtraData
-      inputSetIndex: 10
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: So he decided to use his influence in order to save his business by illegal
-        means. Tax fraud, moonlighting, he deceived the customers by delivering them
-        worse goods than agreed.
-      extraData: ExtraData
-      inputSetIndex: 10
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: 'When Lord Zeppelin learned of this, he demanded that the general bring
-        himself to justice. But probably the general asked him to remain silent or
-        even tried to bribe him. '
-      extraData: ExtraData
-      inputSetIndex: 10
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 17
-    rect:
-      serializedVersion: 2
-      x: 4080
-      y: -570
-      width: 349
-      height: 384
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: And when he refused, he killed him!
+    - text: Fine. Here we go again.
       extraData: ExtraData
-      inputSetIndex: 11
-      outputNodeIndex: 12
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 28
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 18
-    rect:
-      serializedVersion: 2
-      x: 4450
-      y: -570
-      width: 349
-      height: 222
-    pTag: 
-    expand: 1
-    sprite: {fileID: 21300000, guid: 27fcb31a9066b7a4c850d0c260b75cc5, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 3
-    s_comment:
-    - text: Not quite. At first the general tried to use the invitation to dinner
-        to secretly steal the incriminating materials from the Lord's study.
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: 13
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 302
-        y: 59
-        width: 30
-        height: 67
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: But he couldn't find them. All he could find were the Lord's air pressure
-        medications.
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: And that's when he decided to murder him!
-      extraData: fs,30
-      inputSetIndex: 12
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 1
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 19
-    rect:
-      serializedVersion: 2
-      x: 4810
-      y: -570
-      width: 349
-      height: 265
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: Excellent!
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: 14
+      inputSetIndex: 15
+      outputNodeIndex: 8
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -698,9 +870,160 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: You've outdone yourself again, Mr. ShAIRlock Holmes.
+    ID: 17
+    rect:
+      serializedVersion: 2
+      x: 2210
+      y: 250
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 4
+    s_comment:
+    - text: Ask about the lady.
       extraData: ExtraData
-      inputSetIndex: 13
+      inputSetIndex: 16
+      outputNodeIndex: 19
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Ask about the general.
+      extraData: ExtraData
+      inputSetIndex: 16
+      outputNodeIndex: 42
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 81
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Ask about the cook.
+      extraData: ExtraData
+      inputSetIndex: 16
+      outputNodeIndex: 34
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 103
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Ask about the detective.
+      extraData: ExtraData
+      inputSetIndex: 16
+      outputNodeIndex: 17
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 125
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 19
+    rect:
+      serializedVersion: 2
+      x: 4660
+      y: -440
+      width: 349
+      height: 187
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 5
+    s_comment:
+    - text: Oh, I see how it goes.
+      extraData: ExtraData
+      inputSetIndex: 17
+      outputNodeIndex: 18
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: You want to confuse an old man like me with your questions.
+      extraData: ExtraData
+      inputSetIndex: 17
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: You are a cunning fox, Mr Holmes.
+      extraData: ExtraData
+      inputSetIndex: 17
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: But I'm sure I can't tell you anything about you that you don't already
+        know or have been printed in all the newspapers in this city.
+      extraData: ExtraData
+      inputSetIndex: 17
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: But if instead you want to hear a story about my wartime experiences...
+      extraData: ExtraData
+      inputSetIndex: 17
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -716,52 +1039,21 @@ MonoBehaviour:
     ID: 20
     rect:
       serializedVersion: 2
-      x: 5180
-      y: -570
+      x: 4650
+      y: -130
       width: 349
-      height: 244
-    pTag: 
+      height: 383
+    pTag: General
     expand: 1
-    sprite: {fileID: 21300000, guid: 27fcb31a9066b7a4c850d0c260b75cc5, type: 3}
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 3
+  - commentCount: 1
     s_comment:
-    - text: Elementary.
+    - text: I'm very appreciative of your offer, but that won't be necessary.
       extraData: ExtraData
-      inputSetIndex: 14
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: After I managed to find the incriminating documents, the rest was a piece
-        of cake.
-      extraData: ExtraData
-      inputSetIndex: 14
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Comment...
-      extraData: ExtraData
-      inputSetIndex: 14
+      inputSetIndex: 18
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -777,21 +1069,1541 @@ MonoBehaviour:
     ID: 21
     rect:
       serializedVersion: 2
-      x: 5540
-      y: -570
+      x: 5010
+      y: 110
       width: 349
-      height: 185
+      height: 141
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
+  - commentCount: 4
+    s_comment:
+    - text: Oh, yes, the lady hot-air balloon. A young and pretty balloon.
+      extraData: ExtraData
+      inputSetIndex: 19
+      outputNodeIndex: 20
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Why did she marry the older Lord Zeppelin? Isn't that obvious? For the
+        same reason all young girls marry older balloons like us. All she cares about
+        is money.
+      extraData: ExtraData
+      inputSetIndex: 19
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: And with the death of the Lord Zeppelin, she is now also heir to his not
+        inconsiderable wealth.
+      extraData: ExtraData
+      inputSetIndex: 19
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I wouldn't be surprised if in a few months she remarried to a young, handsome,
+        energetic man.
+      extraData: ExtraData
+      inputSetIndex: 19
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 22
+    rect:
+      serializedVersion: 2
+      x: 5090
+      y: -900
+      width: 349
+      height: 387
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: She is the sole heiress of Lord Zeppelin's great wealth?
+      extraData: ExtraData
+      inputSetIndex: 20
+      outputNodeIndex: -1
+      outActionIndex: 4
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: '[That sounds like a possible motive for murdering her husband.]'
+      extraData: ExtraData
+      inputSetIndex: 20
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 23
+    rect:
+      serializedVersion: 2
+      x: 5460
+      y: -900
+      width: 349
+      height: 170
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: For example, the young chef. I have seen how they look at each other.
+      extraData: ExtraData
+      inputSetIndex: 21
+      outputNodeIndex: 22
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 41
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I live long enough to know there's definitely something going on between
+        them.
+      extraData: ExtraData
+      inputSetIndex: 21
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 24
+    rect:
+      serializedVersion: 2
+      x: 5820
+      y: -900
+      width: 349
+      height: 277
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Thank you very much for this conversation, General.
+      extraData: ExtraData
+      inputSetIndex: 22
+      outputNodeIndex: 23
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I'll ask the lady and the chef about it.
+      extraData: ExtraData
+      inputSetIndex: 22
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: '[If the lady and the cook are secretly a couple, both would have had
+        a reason to get rid of Lord Zeppelin.]'
+      extraData: ExtraData
+      inputSetIndex: 22
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 25
+    rect:
+      serializedVersion: 2
+      x: 6190
+      y: -900
+      width: 349
+      height: 212
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Please don't mention I told you that.
+      extraData: ExtraData
+      inputSetIndex: 23
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 26
+    rect:
+      serializedVersion: 2
+      x: 6550
+      y: -900
+      width: 349
+      height: 222
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: Ask about the fraud documents.
+      extraData: ExtraData
+      inputSetIndex: 24
+      outputNodeIndex: 25
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Ask about his financial situation.
+      extraData: ExtraData
+      inputSetIndex: 24
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I don't have any more questions.
+      extraData: ExtraData
+      inputSetIndex: 24
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 28
+    rect:
+      serializedVersion: 2
+      x: 4380
+      y: 280
+      width: 349
+      height: 165
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Who told you about this?
+      extraData: fs,40,bold
+      inputSetIndex: 25
+      outputNodeIndex: 26
+      outActionIndex: -1
+      showmore: 1
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 29
+    rect:
+      serializedVersion: 2
+      x: 4750
+      y: 280
+      width: 349
+      height: 242
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Please just answer the question truthfully.
+      extraData: ExtraData
+      inputSetIndex: 26
+      outputNodeIndex: 27
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 30
+    rect:
+      serializedVersion: 2
+      x: 5110
+      y: 280
+      width: 349
+      height: 128
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: All right! All right! I'll tell you about it.
+      extraData: fs,32,bold
+      inputSetIndex: 27
+      outputNodeIndex: 28
+      outActionIndex: -1
+      showmore: 1
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: It may be that my company hasn't been doing quite as well lately as it
+        used to.
+      extraData: fs,10
+      inputSetIndex: 27
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 1
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 31
+    rect:
+      serializedVersion: 2
+      x: 5460
+      y: 280
+      width: 349
+      height: 318
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: I beg your pardon?
+      extraData: ExtraData
+      inputSetIndex: 28
+      outputNodeIndex: 29
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 32
+    rect:
+      serializedVersion: 2
+      x: 5810
+      y: 280
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 4
+    s_comment:
+    - text: My company hasn't been doing quite as well lately as it used to.
+      extraData: ExtraData
+      inputSetIndex: 29
+      outputNodeIndex: 30
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I had to cut the budget in the company and lay off some employees.
+      extraData: ExtraData
+      inputSetIndex: 29
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: But to make the company competitive again, I would have to invest in new
+        machines, but I don't have the money for that.
+      extraData: ExtraData
+      inputSetIndex: 29
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: That's why I'm here today. I had talked to the Lord Zeppelin and he promised
+        me financial help.
+      extraData: ExtraData
+      inputSetIndex: 29
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 33
+    rect:
+      serializedVersion: 2
+      x: 6160
+      y: 280
+      width: 349
+      height: 361
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: So the sudden death of Lord Zeppelin is very inconvenient for you.
+      extraData: ExtraData
+      inputSetIndex: 30
+      outputNodeIndex: 31
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 41
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: '[I don''t think the lord would be willing to lend so much money just
+        like that.]'
+      extraData: ExtraData
+      inputSetIndex: 30
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 34
+    rect:
+      serializedVersion: 2
+      x: 6520
+      y: 280
+      width: 349
+      height: 183
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 9
+    s_comment:
+    - text: How can you say such a thing? He is one of my oldest friends!
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: 32
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: But yes, now I unfortunately have to find another supporter if I don't
+        want to go broke.
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: What a pity in my old days.
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Do you see this medal?
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: It is the "Venerable cross of the brave sword balloons".
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Only Knights of the Royal Balloon Order receive the honor of wearing such
+        a medal.
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: This medal was awarded to me by the King himself.
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Those were the honorable days. And now I'm supposed to go from house to
+        house begging for money like a bum?
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: How did it get so far that our society treats its veteran heroes like
+        this?
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 35
+    rect:
+      serializedVersion: 2
+      x: 6900
+      y: 280
+      width: 349
+      height: 505
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: '[The general seems to be a very proud man. But how far is he willing
+        to go to protect his honor?]'
+      extraData: ExtraData
+      inputSetIndex: 32
+      outputNodeIndex: 33
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 54
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I wouldn't worry you'd ever end up homeless on the street. Even if your
+        business goes bankrupt, generals out of service get a state pension.
+      extraData: ExtraData
+      inputSetIndex: 32
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 36
+    rect:
+      serializedVersion: 2
+      x: 7260
+      y: 280
+      width: 349
+      height: 222
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Mr. ShAIRlock Holmes, you are a naive young balloon.
+      extraData: ExtraData
+      inputSetIndex: 33
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 37
+    rect:
+      serializedVersion: 2
+      x: 7620
+      y: 280
+      width: 349
+      height: 222
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: 'The cook? He is like all Airlander: lazy, unpunctual, hectic, impulsive,
+        a womanizer who doesn''t know anything about our reliable Ballonian cuisine.'
+      extraData: ExtraData
+      inputSetIndex: 34
+      outputNodeIndex: 35
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 67
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 38
+    rect:
+      serializedVersion: 2
+      x: 5120
+      y: -200
+      width: 349
+      height: 261
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Have you ever spoken to him?
+      extraData: ExtraData
+      inputSetIndex: 35
+      outputNodeIndex: 36
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 39
+    rect:
+      serializedVersion: 2
+      x: 5500
+      y: -90
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: 'No and I don''t have to, I know balloons like him: The Airlanders!'
+      extraData: ExtraData
+      inputSetIndex: 36
+      outputNodeIndex: 37
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: '*I think he''s a member of the Mafia that does the drugs.*'
+      extraData: fs,16,bold
+      inputSetIndex: 36
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 1
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 40
+    rect:
+      serializedVersion: 2
+      x: 5860
+      y: -90
+      width: 349
+      height: 278
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: '[I do not consider this information to be particularly reliable.]'
+      extraData: ExtraData
+      inputSetIndex: 37
+      outputNodeIndex: 38
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 41
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 41
+    rect:
+      serializedVersion: 2
+      x: 6220
+      y: -90
+      width: 349
+      height: 141
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: I'll tell you that based on my life experience, Mr. Holmes.
+      extraData: ExtraData
+      inputSetIndex: 38
+      outputNodeIndex: 39
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: As you get older, you'll understand.
+      extraData: ExtraData
+      inputSetIndex: 38
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: '*Besides, I think he''s moonlighting!*'
+      extraData: fs,16,bold
+      inputSetIndex: 38
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 1
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 42
+    rect:
+      serializedVersion: 2
+      x: 6580
+      y: -90
+      width: 349
+      height: 307
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Are you suggesting that Lord Zeppelin had the cook work for him without
+        a work permit or taxation?
+      extraData: ExtraData
+      inputSetIndex: 39
+      outputNodeIndex: 40
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 54
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 43
+    rect:
+      serializedVersion: 2
+      x: 6940
+      y: -90
+      width: 349
+      height: 154
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: How can you say such an outrageous thing, Mr. Holmes?
+      extraData: ExtraData
+      inputSetIndex: 40
+      outputNodeIndex: 41
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Beware of the Airlander, Mr. Holmes, he is dangerous and takes advantage
+        of you by inciting you against your own countrymen.
+      extraData: ExtraData
+      inputSetIndex: 40
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: These are their sinister ways.
+      extraData: ExtraData
+      inputSetIndex: 40
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 44
+    rect:
+      serializedVersion: 2
+      x: 7390
+      y: -160
+      width: 349
+      height: 312
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: I'll remember your advice.
+      extraData: ExtraData
+      inputSetIndex: 41
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 45
+    rect:
+      serializedVersion: 2
+      x: 7790
+      y: -90
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 4
+    s_comment:
+    - text: I knew you'd come to hear my story.
+      extraData: ExtraData
+      inputSetIndex: 42
+      outputNodeIndex: 43
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: But who can blame you? After all, it's a story of epic proportion.
+      extraData: ExtraData
+      inputSetIndex: 42
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: What should I tell you first?
+      extraData: ExtraData
+      inputSetIndex: 42
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: The story of how I alone stopped the invasion of planes across the Balloon
+        Channel for 40 hours until the reinforcements finally arrived?
+      extraData: ExtraData
+      inputSetIndex: 42
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 46
+    rect:
+      serializedVersion: 2
+      x: 5470
+      y: -550
+      width: 349
+      height: 341
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: '[I remember reading about it. But it was a whole squadron and only 10
+        hours. Still an impressive achievement.]'
+      extraData: ExtraData
+      inputSetIndex: 43
+      outputNodeIndex: 44
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 54
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 47
+    rect:
+      serializedVersion: 2
+      x: 5820
+      y: -550
+      width: 349
+      height: 154
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Or how I caught several dart grenades out of midair with my bare hands
+        and threw them back to the enemies?
+      extraData: ExtraData
+      inputSetIndex: 44
+      outputNodeIndex: 45
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 54
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 48
+    rect:
+      serializedVersion: 2
+      x: 6170
+      y: -550
+      width: 349
+      height: 248
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: '[This sounds extremely unlikely to me.]'
+      extraData: ExtraData
+      inputSetIndex: 45
+      outputNodeIndex: 46
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 49
+    rect:
+      serializedVersion: 2
+      x: 6520
+      y: -550
+      width: 349
+      height: 128
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Or how I spent 24 hours alone behind enemy lines for a bet?
+      extraData: ExtraData
+      inputSetIndex: 46
+      outputNodeIndex: 47
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 50
+    rect:
+      serializedVersion: 2
+      x: 6880
+      y: -550
+      width: 349
+      height: 222
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: '[...]'
+      extraData: ExtraData
+      inputSetIndex: 47
+      outputNodeIndex: 48
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 21
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 51
+    rect:
+      serializedVersion: 2
+      x: 7240
+      y: -550
+      width: 349
+      height: 121
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Or how the King himself thanked me for my service to Balloonia.
+      extraData: ExtraData
+      inputSetIndex: 48
+      outputNodeIndex: 49
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 28
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 52
+    rect:
+      serializedVersion: 2
+      x: 7600
+      y: -550
+      width: 349
+      height: 222
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: '[Since the General wears the "Venerable cross of the brave sword balloons",
+        this must be true.]'
+      extraData: ExtraData
+      inputSetIndex: 49
+      outputNodeIndex: 50
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 30
+        height: 54
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Thank you for your time, General. I think I was able to get a clear impression
+        of you.
+      extraData: ExtraData
+      inputSetIndex: 49
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 53
+    rect:
+      serializedVersion: 2
+      x: 7960
+      y: -550
+      width: 349
+      height: 196
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: But I haven't even started telling the story yet...
+      extraData: ExtraData
+      inputSetIndex: 50
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 54
+    rect:
+      serializedVersion: 2
+      x: 8320
+      y: -550
+      width: 349
+      height: 222
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: If there is nothing more, you are dismissed.
+      extraData: ExtraData
+      inputSetIndex: 51
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 55
+    rect:
+      serializedVersion: 2
+      x: 3520
+      y: 480
+      width: 349
+      height: 222
+    pTag: General
+    expand: 1
+    sprite: {fileID: 21300000, guid: 541589e908a18a1408b045723215a31e, type: 3}
+    vars: []
+    varKeys: []
+    isPlayer: 0
   S_actionNodes:
+  - pauseHere: 0
+    gameObjectName: '[No object]'
+    methodName: '[No method]'
+    nameIndex: 0
+    methodIndex: 0
+    paramIndex: -1
+    opts:
+    - '[No method]'
+    nameOpts:
+    - '[No object]'
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2430
+      y: -240
+      width: 200
+      height: 154
+    ID: 10
+    outPlayerIndex: 8
+    outActionIndex: -1
+    more: 1
+    ovrStartNode: 9
+    renameDialogue: 
   - pauseHere: 0
     gameObjectName: UIManager
     methodName: FeedBools
-    nameIndex: 1
+    nameIndex: 2
     methodIndex: 2
     paramIndex: 2
     opts:
@@ -814,17 +2626,14 @@ MonoBehaviour:
     - ShowItem
     nameOpts:
     - '[No object]'
-    - UIManager
-    - Bookshelf
-    - Text (TMP)
-    - Text (TMP)
     - General
+    - UIManager
+    - Text (TMP)
+    - Text (TMP)
     - Label_Player
-    - Mirror
     - Bottle
     - Text (TMP)
     - Lady
-    - Cook
     - Fireplace
     - Text_NPC
     - Text (TMP)
@@ -834,21 +2643,127 @@ MonoBehaviour:
     param_float: 0
     rect:
       serializedVersion: 2
-      x: 1180
-      y: 260
+      x: 3810
+      y: -220
       width: 200
       height: 176
-    ID: 3
-    outPlayerIndex: 3
+    ID: 14
+    outPlayerIndex: 13
     outActionIndex: -1
     more: 0
     ovrStartNode: -1
     renameDialogue: 
   - pauseHere: 0
     gameObjectName: UIManager
-    methodName: ConditionAND
+    methodName: FeedBools
+    nameIndex: 2
+    methodIndex: 2
+    paramIndex: 2
+    opts:
+    - '[No method]'
+    - SetPlayerChoice
+    - FeedBools
+    - GoToIndex
+    - SetValues
+    - PushValue
+    - JumpCondition
+    - ConditionAND
+    - ConditionOR
+    - ConditionNOT
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - ShowItem
+    nameOpts:
+    - '[No object]'
+    - General
+    - UIManager
+    - Text (TMP)
+    - Text (TMP)
+    - Label_Player
+    - Bottle
+    - Text (TMP)
+    - Lady
+    - Fireplace
+    - Text_NPC
+    - Text (TMP)
+    param_bool: 0
+    param_string: true,true,true,true
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 4410
+      y: -370
+      width: 200
+      height: 176
+    ID: 18
+    outPlayerIndex: 16
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: PushValue
     nameIndex: 1
-    methodIndex: 7
+    methodIndex: 5
+    paramIndex: 2
+    opts:
+    - '[No method]'
+    - SetPlayerChoice
+    - FeedBools
+    - GoToIndex
+    - SetValues
+    - PushValue
+    - JumpCondition
+    - ConditionAND
+    - ConditionOR
+    - ConditionNOT
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - ShowItem
+    nameOpts:
+    - '[No object]'
+    - UIManager
+    - Text (TMP)
+    - Text (TMP)
+    - General
+    - Label_Player
+    - Bottle
+    - Text (TMP)
+    - Lady
+    - Fireplace
+    - Text_NPC
+    - Text (TMP)
+    param_bool: 0
+    param_string: generalfinances,1
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 4130
+      y: 280
+      width: 200
+      height: 176
+    ID: 27
+    outPlayerIndex: 24
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: SetValues
+    nameIndex: 1
+    methodIndex: 4
     paramIndex: 2
     opts:
     - '[No method]'
@@ -885,18 +2800,18 @@ MonoBehaviour:
     - Text_NPC
     - Text (TMP)
     param_bool: 0
-    param_string: ladysolved,will,true,ladymoney,true,medstudy,true
+    param_string: ladymoney,true
     param_int: 0
     param_float: 0
     rect:
       serializedVersion: 2
-      x: 2180
-      y: -510
+      x: 5710
+      y: -1110
       width: 200
       height: 176
-    ID: 7
-    outPlayerIndex: -1
-    outActionIndex: 2
+    ID: 56
+    outPlayerIndex: 21
+    outActionIndex: -1
     more: 0
     ovrStartNode: -1
     renameDialogue: 
@@ -941,242 +2856,18 @@ MonoBehaviour:
     - Text_NPC
     - Text (TMP)
     param_bool: 0
-    param_string: ladysolved,0
+    param_string: fraud,0
     param_int: 0
     param_float: 0
     rect:
       serializedVersion: 2
-      x: 2180
-      y: -330
+      x: 4380
+      y: 90
       width: 200
       height: 176
-    ID: 8
+    ID: 57
     outPlayerIndex: -1
     outActionIndex: 3
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: UIManager
-    methodName: ConditionAND
-    nameIndex: 1
-    methodIndex: 7
-    paramIndex: 2
-    opts:
-    - '[No method]'
-    - SetPlayerChoice
-    - FeedBools
-    - GoToIndex
-    - SetValues
-    - PushValue
-    - JumpCondition
-    - ConditionAND
-    - ConditionOR
-    - ConditionNOT
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - ShowItem
-    nameOpts:
-    - '[No object]'
-    - UIManager
-    - Bookshelf
-    - Text (TMP)
-    - Text (TMP)
-    - General
-    - Label_Player
-    - Mirror
-    - Bottle
-    - Text (TMP)
-    - Lady
-    - Cook
-    - Fireplace
-    - Text_NPC
-    - Text (TMP)
-    param_bool: 0
-    param_string: generalsolved,fraud,true,generalstudy,true,generalfinances,true
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 2400
-      y: -510
-      width: 200
-      height: 176
-    ID: 9
-    outPlayerIndex: -1
-    outActionIndex: 4
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: UIManager
-    methodName: PushValue
-    nameIndex: 1
-    methodIndex: 5
-    paramIndex: 2
-    opts:
-    - '[No method]'
-    - SetPlayerChoice
-    - FeedBools
-    - GoToIndex
-    - SetValues
-    - PushValue
-    - JumpCondition
-    - ConditionAND
-    - ConditionOR
-    - ConditionNOT
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - ShowItem
-    nameOpts:
-    - '[No object]'
-    - UIManager
-    - Bookshelf
-    - Text (TMP)
-    - Text (TMP)
-    - General
-    - Label_Player
-    - Mirror
-    - Bottle
-    - Text (TMP)
-    - Lady
-    - Cook
-    - Fireplace
-    - Text_NPC
-    - Text (TMP)
-    param_bool: 0
-    param_string: generalsolved,1
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 2400
-      y: -330
-      width: 200
-      height: 176
-    ID: 10
-    outPlayerIndex: -1
-    outActionIndex: 5
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: UIManager
-    methodName: ConditionAND
-    nameIndex: 1
-    methodIndex: 7
-    paramIndex: 2
-    opts:
-    - '[No method]'
-    - SetPlayerChoice
-    - FeedBools
-    - GoToIndex
-    - SetValues
-    - PushValue
-    - JumpCondition
-    - ConditionAND
-    - ConditionOR
-    - ConditionNOT
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - ShowItem
-    nameOpts:
-    - '[No object]'
-    - UIManager
-    - Bookshelf
-    - Text (TMP)
-    - Text (TMP)
-    - General
-    - Label_Player
-    - Mirror
-    - Bottle
-    - Text (TMP)
-    - Lady
-    - Cook
-    - Fireplace
-    - Text_NPC
-    - Text (TMP)
-    param_bool: 0
-    param_string: cooksolved,cookstory,true,loveconfession,true,medstudy,true
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 2620
-      y: -510
-      width: 200
-      height: 176
-    ID: 11
-    outPlayerIndex: -1
-    outActionIndex: 6
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: UIManager
-    methodName: PushValue
-    nameIndex: 1
-    methodIndex: 5
-    paramIndex: 2
-    opts:
-    - '[No method]'
-    - SetPlayerChoice
-    - FeedBools
-    - GoToIndex
-    - SetValues
-    - PushValue
-    - JumpCondition
-    - ConditionAND
-    - ConditionOR
-    - ConditionNOT
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - ShowItem
-    nameOpts:
-    - '[No object]'
-    - UIManager
-    - Bookshelf
-    - Text (TMP)
-    - Text (TMP)
-    - General
-    - Label_Player
-    - Mirror
-    - Bottle
-    - Text (TMP)
-    - Lady
-    - Cook
-    - Fireplace
-    - Text_NPC
-    - Text (TMP)
-    param_bool: 0
-    param_string: cooksolved,2
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 2620
-      y: -330
-      width: 200
-      height: 176
-    ID: 12
-    outPlayerIndex: 5
-    outActionIndex: -1
     more: 0
     ovrStartNode: -1
     renameDialogue: 
