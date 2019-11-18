@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PressEnter
   - UI
+  - Key
   layers:
   - Default
   - TransparentFX
